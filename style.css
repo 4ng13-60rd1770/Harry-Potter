@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&display=swap');
+*{
+    margin: 0;
+}
+
+body{
+    background-image: url(./img/fondo.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div.container{
+    text-align: center;
+    margin: 150px;;
+}
+
+button#comenzar{
+    background-color: #ffbf00;
+    border: #ffbf00;
+    border-radius: 25px;
+    padding:15px;
+    width: 150px;
+    font-family: 'Fredoka', sans-serif;
+    font-size: 15px;
+}
+
+button#nuevoPersonaje{
+    background-color: #ffbf00;
+    border: #ffbf00;
+    border-radius: 25px;
+    padding:15px;
+    width: 150px;
+    font-family: 'Fredoka', sans-serif;
+    font-size: 15px;
+}
+
+img {
+    width: 180px;
+    height: 180px;
+    padding: 5px;
+    margin: 48px;
+}
+
+div#personajes{
+    background-color: #f1d793;
+    margin: auto;
+    text-align: center;
+    padding: 25px;
+    border-radius: 20px;
+    border: 1px solid black;
+    width: 40%;
+}
+
